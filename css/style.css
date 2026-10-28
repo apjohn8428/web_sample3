@@ -1,0 +1,173 @@
+/* 공통 기본 설정 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, "맑은 고딕", sans-serif;
+    color: #333;
+    background-color: #f8fafc;
+    line-height: 1.5;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* top 디자인 */
+.top {
+    background-color: #002244;
+    color: #dbeafe;
+    font-size: 12px;
+    padding: 7px 0;
+}
+
+.topin {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.headin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+}
+
+/* header 디자인 */
+header {
+    background-color: #003366;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; /* 원 테두리 디자인 */
+    background-color: white;
+    color: #003366;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo b {
+    display: block;
+    font-size: 25px;
+}
+
+.logo small {
+    font-size: 10px;
+    color: #bfdbfe;
+    letter-spacing: 1px;
+}
+
+nav {
+    display: flex;
+    gap: 5px;
+    background-color: #002855;
+    font-size: 13px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+nav a {
+    color: #dbeafe;
+    padding: 9px 12px;
+}
+
+nav a:hover {
+    background-color: #2563a8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* main 디자인 */
+.main {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    min-height: 600px;
+}
+
+.hero {
+    background: linear-gradient(110deg, #003366, #005599);
+    border-radius: 15px;
+    color: white;
+    padding: 40px;
+    position: relative;
+}
+
+.pill {
+    background-color: #245985;
+    border: 1px solid #6496c4;
+    border-radius: 20px;
+    padding: 4px 7px;
+    font-size: 12px;
+}
+
+.hero h1 {
+    font-size: 32px;
+}
+
+.hero p {
+    font-size: 14px;
+    color: #dbeafe;
+}
+
+/* 공통 버튼 디자인 */
+.btn {
+    border: 0;
+    text-align: center;
+    padding: 10px 15px;
+    font-family: inherit;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #bfdbfe;
+}
+
+.btn:hover {
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.orange-btn {
+    background-color: #e67e22;
+    color: white;
+}
+
+.white-btn {
+    background-color: white;
+    color: #003366;
+    margin-left: 5px;
+}
+
+.watermark {
+    font-size: 150PX;
+    opacity: 0.1;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    bottom: -40px; /* 기본 padding 값이 있기 때문에 음수 값을 설정 */
+}
